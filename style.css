@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: white;
+}
+
+.picture{
+    background:top / cover  url(https://s3-alpha-sig.figma.com/img/0c92/e323/52d1bdf7e461aebf91aa73eb80dd0d9c?Expires=1729468800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=djl9SNNJ34VNaPVO4H0pWfgdF4i~Vlt-HdXnhYurfTXbZxVJVF-RavOOzodQ44eF6RTyhNAvoEEMhVoN~l3ZQW0FPrYh14ip9mzvmBwu1jszmUvBdgr4rTOggMBHGN9fMtTWwlgf1ZXhE8YQf8irM9TdZAQl1Tgzj5eGh4tbL6Vrfdv~hlqNa-VYqdSviKJ-0-WNtlDT9fNTnxAP8nY0452rBAxVqi~4epAvjESpUnR9jsEElHYrQxdNN~h2tiddjHAksK-rM6aHW-B-adhBNLaIYE4Ow3umaz5jVe1sK7yfLgrWrd734t6UO5UDzJMoOfW4kBtajpPyg7CGar11BQ__);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: solid 2px;
+}
+
+.circle{
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background-color: lime;
+    position: absolute;
+    bottom: 0px;
+    right: 5px;
+    border: solid 2px;
+}
+
+.boxhead{
+    position: relative;
+    width: max-content;
+}
+.box{
+    display: flex;
+    align-items: center;
+    width: 30%;
+    height: 20%;
+    border: solid thin ;
+    border-radius: 15px;
+    gap: 25px;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 20px;
+    position: absolute;
+}
+.txt1{
+    font-weight: 800;
+}
+.txt2{
+    color: gray;
+}
+.cross{
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    top: -20px;
+    right: -20px;
+    background: center/cover url();
+    border: solid thin;
+    padding: 10px;
+    background-color: white;
+}
